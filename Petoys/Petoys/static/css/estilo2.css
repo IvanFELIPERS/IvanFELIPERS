@@ -1,0 +1,457 @@
+* {
+    font-weight: 100;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.botonesp {
+    width: 100%;
+    height: 70px;
+    background-color: #8a2be2;
+    
+}
+.boton3, .boton4, .boton5, .boton6, .boton7 {
+    height: 38px;
+    width: 118px;    
+    margin-top: 16px;
+    margin-left: 126px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #e6e6fa;
+    border-color: #e6e6fa;
+}
+
+select {
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.contedor, .contedorp {
+    width: 100%;
+    height: 120px;
+    background-color: #e6e6fa;
+    position: relative;
+}
+
+.logo, .logop {
+    height: 100px;
+    width: 130px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.carrito {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.contedorp select {
+    height: 38px;
+    width: 200px;
+    text-align-last: center;
+    margin-left: 30px; 
+}
+
+.cajaimg {
+    height: 80px;
+    width: 120px;
+    //background: royalblue;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.img_perfil {
+    height: 100px;
+    width: 80px;
+}
+
+.barra {
+    width: 400px;
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.barrap {
+    width: 550px;
+    margin-top: 55px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: black;
+}
+.boton1, .boton2 {
+    height: 60px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 25px;
+}
+h1 {
+    text-align: center;
+    line-height: 80px;
+    font-weight:bold;
+    font-size: 32px;
+}
+
+form {
+   width: 1000px;
+   height: 555px;
+   padding: 16px;
+   margin: auto;
+   border: 3px solid black;
+}
+
+.agregados-carrito{
+   width: 75%;
+   height: 50%;
+   padding: 16px;
+   margin: 20px auto 0;
+   border: 3px solid black;
+}
+
+.dogchow {
+    height: 200px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.producto {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+    margin-top: -192px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.precio{
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    vertical-align: middle;
+    margin-top: -192px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.cantidad {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+    margin-top: -192px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.verprod{
+    display: inline-block;
+    height: 200px;
+    width: 106px;
+    vertical-align: middle;
+    margin-top: -192px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.verprod a {
+    font-size: 12px;
+}
+
+.cantidad input{
+    width: 100px;
+    padding: 3px 15px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+
+
+.form1 {
+    width: 320px;
+    height: 500px;
+    padding: 16px; 
+    margin-top: 40px;
+    margin-left: 176px;    
+    display: inline-block;
+}
+
+.form2 {
+    width: 320px;
+    height: 500px;
+    padding: 16px;
+    margin-top: 10px;
+    margin-left: 20px;    
+    display: inline-block;
+}
+
+form label {    
+    width: 72px; 
+ 
+}
+
+form input{
+    width: 250px;
+    padding: 3px 15px;
+    margin: 8px 0;
+}
+
+.botones_registro {
+    width: 1366px;
+    height: 120px;    
+    position: relative;
+}
+
+.botones_carrito1 {
+    width: 75%;
+    height: 180px;
+    position: relative;
+    margin: auto;
+    border: 3px solid black;
+    border-top: none;
+    border-bottom: none; 
+}
+
+.botones_carrito2 {
+    width: 75%;
+    height: 85px;
+    margin: 0 auto 20px;
+    margin-bottom: 5%;
+    border: 3px solid black;
+    border-top: none;
+}
+.sel-mp {
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    line-height: 100px;
+    margin: 10px 25px;
+}
+
+.sel-mp button {    
+    padding: 10px;
+    vertical-align: middle;
+    margin-top: -100px;
+    border-radius: 20px;
+    border-style: solid;
+    //cursor: pointer;
+}
+
+.info-pago {
+    height: 200px;
+    width: 140px;
+    display: inline-block;
+    margin-left: 480px;
+    margin-top: 20px;
+    vertical-align: middle;
+   
+}
+
+.info-costo {
+    height: 200px;
+    width: 80px;    
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.elegir-pro {
+    height: 100px;
+    width: 200px;
+    display: inline-block; 
+    margin-left: 20px; 
+    
+}
+
+.sel-env {
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    margin-left: 180px;
+}
+
+.btn-regresar {
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    margin-left: 150px;    
+}
+.boton_crear {
+    height: 60px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.boton_regresar {
+    height: 60px;
+    width: 250px;
+    display: inline-block;    
+    margin-left: 600px;
+}
+.botones_carrito2 button {
+    width: 180px;
+    padding: 4px;
+    margin: 10px 25px;
+    vertical-align: middle;
+    border-radius: 20px;
+    border-style: solid;
+    
+}
+
+
+.medios-pago{
+   width: 85%;
+   height: 600px;
+   padding: 16px;
+   margin: 5% 7.5%;
+   border: 3px solid black;
+   border-bottom: none;
+}
+
+.img-contra {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin: 5% 0% 0% 2.5%;
+}
+.check-contra {
+    height: 25%;
+    width: 20%;
+    margin: 5% 0% 0% 0%;
+    float: left;
+    text-align: center;
+    line-height: 50%;
+    
+}
+.label-contra{
+    height: 25%;
+    width: 50%;
+    float: left;
+    margin: 5% 0% 0% 0%;
+    line-height: 150px;
+}
+.label-elect {
+    height: 25%;
+    width: 200px;
+    float: left;
+    margin: 5% 0% 0% 0%;
+    line-height: 150px;
+}
+.select-elect {
+    height: 25%;
+    width: 350px;
+    float: left;
+    margin: 5% 0% 0% 0%;
+}
+.select-elect select {
+    height: 120px;
+    width: 250px;
+    margin-top: 2.5%;
+    vertical-align: middle;
+    padding: 5%;
+}
+.check-contra input {
+    height: 25px;
+    width: 25px;
+    margin-top: 25%;
+}
+
+.botones-mediospagos {
+    width: 85%;
+    height: 100px;
+    margin: -5% auto 5%;
+    border: 3px solid black;
+    border-top: none;
+    
+}
+.btn-continuar {
+    width: 20%;
+    height: 50%;
+    float: left;
+    margin: 2.5% 12.5%  5% 15%;
+}
+.btn-continuar button{
+    //height: 100px;
+    width: 180px;
+    padding: 4px;
+    margin: 5px 7.5%;
+    vertical-align: middle;
+    border-radius: 20px;
+    border-style: solid;  
+}
+.btn-regresar2 {
+    width: 20%;
+    height: 50%;
+    float: left;
+    margin: 2.5% 12.5%  5% 15%;
+}
+
+.btn-regresar2 button{
+    width: 180px;
+    padding: 4px;
+    margin: 5px 7.5%;
+    vertical-align: middle;
+    border-radius: 20px;
+    border-style: solid;   
+}
+
+.btn-regresar {
+    width: 20%;
+    height: 60%;
+    //float: left;
+    margin: 2.5% 0% 5% 17.5%;
+}
+
+.btn-regresar button{
+    width: 180px;
+    padding: 4px;
+    margin: 5px 7.5%;
+    vertical-align: middle;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+footer {
+    width: 100%;
+    height: 130px;
+    background-color: #e6e6fa;
+    //position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+footer img {
+    height: 100px;
+    width: 130px;    
+    margin: 15px 10px;
+    float: left;    
+}
+.redes {
+    float: right;
+    margin-right: 5%;
+    
+}
+
+p {
+    line-height: 40px;
+    margin-left: 120px;
+}
+

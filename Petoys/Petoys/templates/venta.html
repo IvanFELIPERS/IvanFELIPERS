@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Venta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'css/estilo2.css' %}">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    
+    
+    <body>        
+         
+        <div class="botonesp">
+           <input class="boton3" type="submit" onclick="location.href='pag_user.html'" value="Inicio" />
+            <input class="boton4" type="submit" onclick="location.href='caninos_user.html'" value="Caninos" /> 
+            <input class="boton5" type="submit" onclick="location.href='felinos_user.html'" value="Felinos" />
+            <input class="boton6" type="submit" onclick="location.href='mis_citas.html'" value="Citas" />
+            <input class="boton7" type="submit" onclick="location.href='Contactenos_user.html'" value="Contactenos" />
+
+        </div>
+
+        <div class="contedorp">
+
+            <img class="logop"src="{% static 'imagenes/logo.png' %}" alt=""/>
+
+            <input class="barrap" type="text" name="" value="" />
+            
+            <a href="venta.html"><img class="carrito" src="{% static 'imagenes/carrito.png' %}" alt=""/> </a>                       
+            <select name="mi perfil" autofocus="" onchange="location = this.value">
+                <option value="pag_user.html">Usuario</option>
+                <option value="Actualizacion.html">Actualizar Datos</option>
+                <option value="historial_compras_user.html">Mi historial de Compras</option>
+                <option value="pag_user.html">Cerrar Sesion</option>
+            </select>
+            
+            <div class="cajaimg">
+                <img class="img_perfil" src="{% static 'imagenes/perro_perfil.png' %}" alt=""/>
+            </div>
+            
+        </div>
+
+        <div class="agregados-carrito">
+            <h1>Agregados al Carrito</h1>
+            <img class="dogchow"src="{% static 'imagenes/dogChow6.png' %}" alt=""/>
+            <div class="producto"><label>Purina Dog Chow</label></div>
+            <div class="precio"><label>$ 15.000</label></div>
+            <div class="cantidad"> - <input type="text" name="" value="1" /> + </div>
+            <div class="verprod"><a href="">Ver producto</a></div>
+            <div class="verprod"><a href="">Eliminar</a></div>
+            <a href=""></a>
+            
+            <img class="dogchow"src="{% static 'imagenes/Collar.jpg' %}" alt=""/>
+            <div class="producto"><label>Collar para Perros</label></div>
+            <div class="precio"><label>$ 11.500</label></div>
+            <div class="cantidad"> - <input type="text" name="" value="1" /> + </div>
+            <div class="verprod"><a href="">Ver producto</a></div>
+            <div class="verprod"><a href="">Eliminar</a></div>
+            <a href=""></a>
+        </div>
+        <a href="forma_pago.html"></a>
+        <div class="botones_carrito1">
+            <div class="sel-mp"><button onclick="location.href='forma_pago.jsp'">Seleccionar Medio de Pago</button> </div>
+            <div class="info-pago"> 
+                <label>Total Productos</label>
+                <label><br>Subtotal</label>
+                <label><br>Costo Envio</label>
+                <label><br>Total</label>                
+            </div>
+            <div class="info-costo"> 
+                <label>2</label>
+                <label><br>$ 41.900</label>
+                <label><br>$ 5.000</label>
+                <label><br>$ 46.900</label>                
+            </div>
+        </div>
+        <div class="botones_carrito2">
+            <div class="elegir-pro"><button onclick="location.href='productos.html'">Elegir Productos</button> </div>
+            <div class="sel-env"><button onclick="location.href='envio.html'">Seleccionar Envio</button> </div>
+            <div class="btn-regresar"><button onclick="history.back()">Regresar</button> </div>
+            
+        </div>
+
+        <footer>
+            <img src="{% static 'imagenes/logo.png' %}" alt=""/>
+            <p>
+                Contactenos:
+            </p>
+            <p>
+                800 9350
+            </p>
+            <p>
+                Calle 139 No 101B - 04
+            </p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    </body>
+</html>

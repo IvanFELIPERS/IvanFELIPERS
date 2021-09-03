@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'css/estilo_general.css' %}">
+        <link rel="stylesheet" href="{% static 'css/productos.css' %}">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <title>PRODUCTOS</title>        
+    </head>
+
+    <body>
+        
+    
+
+        <div class="botonesp">
+            <input class="boton3" type="submit" onclick="location.href='pag_user.html'" value="Inicio" />
+            <input class="boton4" type="submit" onclick="location.href='caninos_user.html'" value="Caninos" /> 
+            <input class="boton5" type="submit" onclick="location.href='felinos_user.html'" value="Felinos" />
+            <input class="boton6" type="submit" onclick="location.href='mis_citas.html'" value="Citas" />
+            <input class="boton7" type="submit" onclick="location.href='Contactenos_user.html'" value="Contactenos" />
+        </div>
+
+        <div class="contedorp">
+
+            <img class="logop"src="{% static 'imagenes/logo.png' %}" alt=""/>
+
+            <input class="barrap" type="text" name="" value="" />
+
+            <a href="venta.html"><img class="carrito" src="imagenes/carrito.png" alt=""/> </a>            
+            <select name="mi perfil" autofocus="" onchange="location = this.value">
+                <option value="pag_user.html">Usuario</option>
+                <option value="Actualizacion.html">Actualizar Datos</option>
+                <option value="historial_compras_user.html">Mi historial de Compras</option>
+                <option value="pag_user.html">Cerrar Sesion</option>
+            </select>
+            <div class="cajaimg">
+                <img class="img_perfil" src="{% static 'imagenes/perro.png' %}" alt=""/>
+            </div>
+
+
+        </div>
+
+        <header>
+            <h1>PRODUCTOS</h1>
+        </header>
+
+   
+            <div class="Formulario">
+            <div class="cuadro-imagen">
+                <img class="dogchow" src="{% static 'imagenes/dogChow6.png' %}" alt=""/>
+            </div>
+
+            <form>
+                <label><br>Dog Chow</label>
+                <label><br>1 Kg</label>
+                <label><br> $14.000 </label>
+                <label><br>Calificacion</label>
+
+            </form>
+
+        </div>
+
+        <div class="Formulario">
+            <div class="cuadro-imagen">
+                <img class="hills" src="{% static 'imagenes/hillsgato.jpg' %}" alt=""/>
+            </div>
+            <form>
+                <label><br>Hills Science Diet Adulto</label>
+                <label><br>15 Lb</label>
+                <label><br> $ 200.000 </label>
+                <label><br>Calificacion</label>
+
+            </form>
+
+
+        </div>
+            
+        
+        <div class="Formulario">
+            <div class="cuadro-imagen">
+                <img class="chunky" src="{% static 'imagenes/chunkygato.jpg' %}" alt=""/>
+            </div>
+            
+            <form>
+                <label><br>Chunky Delicat Trozos De Pollo</label>
+                <label><br>80 g</label>
+                <label><br> $ 3.000 </label>
+                <label><br>Calificacion</label>
+
+            </form>
+            
+        </div>
+            
+        
+        <footer>
+            <img src="{% static 'imagenes/logo.png' %}" alt=""/>
+            <img class="redes" src="{% static 'imagenes/redes228.png' %}" alt=""/>
+            <p>
+                Contactenos:
+            </p>
+            <p>
+                800 9350
+            </p>
+            <p>
+                Calle 139 No 101B - 04
+            </p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    </body>
+</html>

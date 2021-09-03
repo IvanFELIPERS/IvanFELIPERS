@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/06/2021, 01:13:37 AM
+    Author     : jseba
+*/
+
+.fotoagregar, .fotoeliminar{
+    height: 230px;
+    width: 230px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.fotoactualizar, .fotoagregaroferta{
+    height: 230px;
+    width: 230px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.botonagregar, .botoneliminar{
+    margin-left: 265px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+
+.botonactualizacion{
+    margin-left: 480px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+
+.botonagregaroferta{
+    margin-left: 480px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+   
+}
+
+.regresarmiscompras{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.botonregresar{
+    margin-left: 635px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+}

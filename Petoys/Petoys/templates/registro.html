@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'css/estilo_registro.css' %}">
+        
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>  
+        
+        
+        <div class="botonesp">
+            <input class="boton3" type="submit" onclick="location.href='index.html'" value="Inicio" />
+            <input class="boton4" type="submit" onclick="location.href='caninos.html'"value="Caninos" /> 
+            <input class="boton5" type="submit" onclick="location.href='felinos.html'"value="Felinos" />
+            <input class="boton6" type="submit" onclick="location.href='citas.html'"value="Citas" disabled=""/>
+            <input class="boton7" type="submit" onclick="location.href='Contactenos.html'"value="Contactenos" />
+        </div>
+        
+        <div class="contedorp">
+            
+            <img class="logo"src="{% static 'imagenes/logo.png' %}" alt=""/>
+            
+            <input class="barrap" type="text" name="" value="" />
+            <input class="boton1" type="submit"onclick="location.href='InicioSesion.html'" value="Iniciar Sesión" />
+            <input class="boton2" type="submit" value="Registrarse" disabled=""/>            
+            
+        </div>
+       
+        <form class="registro">
+            <h1>
+                Registrarse
+            </h1>
+            <div class="form1">
+                <label>Nombre</label>
+                <input class="textnombre"type="text" name="" value="" />
+                <label>Apellido</label>
+                <input type="text" name="" value="" />
+                <label>Tipo documento</label>                
+                <select name="tipodocumento">
+                    <option>-- Seleccione  --</option>   
+                    <option>Tarjeta Identidad</option>
+                    <option>Cedula</option>
+                    <option>Cedula de Extranjeria</option>
+                </select>
+                <label>No.Documento</label>
+                <input type="text" name="" value="" />
+                <label>Ciudad</label>                
+                <select name="ciudad">
+                    <option>-- Seleccione  --</option>   
+                    <option>Bogotá</option>
+                    <option>Medellin</option>
+                    <option>Barranquilla</option>
+                </select>
+                <label>Rol</label>
+                <select name="tipodocumento">
+                    <option>-- Seleccione  --</option>   
+                    <option>Administrador</option>
+                    <option>Usuario</option>
+                </select>
+                <label>Direccion</label>
+                <input type="text" name="" value="" />
+                <label>Telefono</label>
+                <input type="text" name="" value="" />
+                <label>Nombre de Usuario</label>
+                <input type="text" name="" value="" />
+                <label>Correo</label>
+                <input type="text" name="" value="" />
+                <label >Contraseña</label>
+                <input type="password" name="" value="" />
+                <label>Repita contraseña</label>
+                <input type="password" name="" value="" />
+                
+                 
+            </div>
+        </form>
+        
+        <button class="boton8" onclick="location.href='vista/javascript/.html'">Crear Cuenta</button> 
+        <button class="boton9" onclick="history.back()">Regresar</button>
+        
+        
+        <footer>
+            <img src="{% static 'imagenes/logo.png' %}" alt=""/>
+            <img class="redes" src="{% static 'imagenes/redes228.png' %}" alt=""/>
+            <p>
+                Contactenos:
+            </p>
+            <p>
+                800 9350
+            </p>
+            <p>
+                Calle 139 No 101B - 04
+            </p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

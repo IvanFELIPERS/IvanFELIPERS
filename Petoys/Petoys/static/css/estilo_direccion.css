@@ -1,0 +1,212 @@
+* {
+    font-weight: 100;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+.botonesp {
+    width: 100%;
+    height: 70px;
+    background-color: #8a2be2;
+
+}
+.boton3, .boton4, .boton5, .boton6, .boton7 {
+   
+    width: 118px;
+    height: 38px;
+    margin-top: 16px;
+    margin-left: 126px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #e6e6fa;
+    border-color: #e6e6fa;;
+}
+select {
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.contedor, .contedorp {
+    width: 100%;
+    height: 120px;
+    background-color: #e6e6fa;
+    position: relative;
+}
+
+.logo, .logop {
+    height: 100px;
+    width: 130px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.carrito {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.contedorp select {
+    height: 38px;
+    width: 200px;
+    text-align-last: center;
+    margin-left: 30px;  
+}
+
+.cajaimg {
+    height: 80px;
+    width: 120px;
+    //background: royalblue;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    text-align: center;
+}
+.img_perfil {
+    height: 100px;
+    width: 80px;
+}
+
+    .barra {
+        width: 400px;
+        display: inline-block;
+        margin-top: 55px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 15px;
+        border-color: black;
+    }
+
+    .barrap {
+        width: 550px;
+        margin-top: 55px;
+        margin-left: 100px;
+        margin-right: 50px;
+        border-radius: 15px;
+        border-color: #8a2be2;
+        border-style: solid;
+        padding-left: 1.2%;
+    }
+
+    h2 {
+        text-align: center;
+        line-height: 80px;
+        font-weight:bold;
+        font-size: 32px;
+
+    }
+h1 {
+    text-align: center;
+    line-height: 80px;
+    font-weight:bold;
+    font-size: 32px;
+}
+.datos-envio{
+   width: 75%;
+   height: 555px;
+   margin: 5% 12.5%;
+   border: 3px solid black;
+   border-bottom: none;
+}
+
+.form-envio {
+    width: 25%;
+    height: 250px;
+    padding: 7.5% 2.5%;
+    float: left;
+    margin: 5% 15%;
+    
+}
+
+.img-envio {
+    width: 30%;
+    height: 60%;
+    padding: 16px;
+    float: left;
+    margin: 5% 2.5%;
+}
+.img-envio img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.form-envio input{
+    width: 250px;
+    padding: 3px 15px;
+    margin: 4px 0 14px 0;
+}
+
+.botones-mediospagos {
+    width: 75%;
+    height: 100px;
+    margin: -5% 12.5%  5% 12.5%;
+    border: 3px solid black;
+    border-top: none;
+}
+
+.btn-continuar {
+    width: 20%;
+    height: 50%;
+    float: left;
+    margin: 1% 12.5%  5% 15%;
+}
+.btn-continuar button{
+    width: 180px;
+    padding: 4px;
+    margin: 5px 8px;
+    vertical-align: middle;
+    border-radius: 20px;
+    border-style: solid;
+    
+}
+.btn-regresar2 {
+    width: 20%;
+    height: 50%;
+    float: left; 
+     margin: 1% 12.5%  5% 17.5%;
+    
+}
+.btn-regresar2 button{
+    width: 180px;
+    padding: 4px;
+    margin: 5px 8px;   
+    vertical-align: middle;
+    border-radius: 20px;
+    border-style: solid;
+    
+}
+
+footer {
+    width: 100%;
+    height: 130px;
+    background-color: #e6e6fa;
+    left: 0px;
+    bottom: 0px;
+}
+
+footer img {
+    height: 100px;
+    width: 130px;    
+    margin: 15px 10px;
+    float: left;    
+}
+.redes {
+    float: right;
+    margin-right: 5%;
+    
+}
+
+p {
+    line-height: 40px;
+    margin-left: 120px;
+}
+

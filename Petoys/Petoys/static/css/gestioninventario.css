@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/06/2021, 07:43:10 PM
+    Author     : user
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.div1{
+    width: 320px;
+    height: 360px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+
+.div2{
+    
+    width: 320px;
+    height: 350px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+.div3{
+    
+    width: 320px;
+    height: 350px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+
+}
+
+.divs{
+    margin-left: 15%;
+    height: 90px;
+    width: 200px;    
+    margin-top: 16px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #e6e6fa;
+    border-color: #e6e6fa;
+}
+
+
+img{
+display:block;
+margin:auto;
+
+}
+.boton-regresar {
+    width: 300px;
+    height: 55px;
+    padding: 55px;
+    margin: -5% 37.5% 2% 37.5%;
+}
+
+.boton-regresar button {
+    height: 38px;
+    width: 150px;
+    margin: 0% 27.5% 0% 27.5%;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+
+
+

@@ -1,0 +1,291 @@
+* {
+    font-weight: 100;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.botonesp {
+    width: 1366px;
+    height: 70px;
+    background-color: #8a2be2;
+    //position: relative;
+    //padding: 20px;
+    
+}
+.boton3, .boton4, .boton5, .boton6, .boton7 {
+    height: 38px;
+    width: 118px;    
+    margin-top: 16px;
+    margin-left: 126px;
+}
+
+.contedor, .contedorp {
+    width: 100%;
+    height: 120px;
+    background-color: #e6e6fa;
+    position: relative;
+}
+
+.logo, .logop {
+    height: 100px;
+    width: 130px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.carrito {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.contedorp select {
+    height: 38px;
+    width: 150px;
+    text-align-last: center;
+    margin-left: 30px; 
+}
+
+.cajaimg {
+    height: 80px;
+    width: 120px;
+    background: royalblue;
+    display: inline-block;
+    vertical-align: top;    
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.barra {
+    width: 400px;
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.barrap {
+    width: 550px;
+    margin-top: 55px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: black;
+}
+.boton1, .boton2 {
+    height: 60px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+h2 {
+    text-align: center;
+    line-height: 80px;
+    //font-family: cursive;
+    font-weight:bold;
+    font-size: 32px;
+    
+}
+
+.medios-pago{
+   width: 1000px;
+   height: 595px;
+   padding: 16px;
+   margin: 20px auto 0;
+   border: 3px solid aqua;
+   border-bottom: none;
+}
+
+.caja-filtro-masc {
+    display: inline-block;
+    height: 200px;
+    width: 235px;    
+    margin-top: 30px;    
+    border: 2px solid lightseagreen;
+    vertical-align: top;
+}
+.caja-edad {
+    display: inline-block;
+    height: 200px;
+    width: 235px;
+    margin-top: 30px;
+    margin-right: 15px;    
+    border: 2px solid lightseagreen;
+    border-left: 0;
+    vertical-align: top;
+}
+.tipo-mascota {    
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    line-height: 35px;
+    border-bottom: 2px solid lightseagreen;
+}
+
+.edad-mascota {    
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    border-bottom: 2px solid lightseagreen;
+}
+.check-mascota {
+    height: 85%;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 35px;
+}
+.check-mascota label {
+    font-size: 16px;
+}
+.check-edad {
+    height: 85%;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 35px;
+    vertical-align: top;
+    //border: 3px solid black;
+}
+.check-edad label {
+    font-size: 16px;
+}
+.caja-filtro-prod {
+    display: inline-block;
+    height: 200px;
+    width: 470px;    
+    margin-top: 25px;
+    vertical-align: top;
+    //border-radius: 20px;
+    border: 2px solid lightseagreen;  
+}
+.marcas {    
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    font-family: cursive;
+    
+    border-bottom: 2px solid lightseagreen; 
+}
+
+.check-marcas {
+    height: 85%;
+    width: 100%;
+    padding-top: 35px;    
+    display: inline-block;
+    //border: 3px solid black;
+}
+.check-marcas label {
+    width: 115px;
+    float: inside;
+    margin-top: 5px; 
+    font-size: 16px;    
+    display: inline-block; 
+}
+.check-marcas input {
+    margin-left: 15px;
+}
+.caja-imagen1 {
+    display: inline-block;
+    height: 200px;
+    width: 470px;    
+    margin-top: 30px;    
+    //border: 3px solid black;
+    
+}
+.caja-imagen1 img{
+    height: 100%;
+    width: 100%;
+}
+.caja-imagen2 {
+    display: inline-block;
+    height: 200px;
+    width: 470px; 
+    margin-top: 25px;
+    margin-right: 15px;    
+    //border: 3px solid black;
+}
+
+.caja-imagen2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.check-contra input {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 100px;
+    //padding: 3px 15px;
+    //margin: 8px 0;
+    //text-align: center;
+}
+.botones-mediospagos {
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto 20px;
+    border: 3px solid black;
+    border-top: none;
+}
+.btn-continuar {
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 54px; 
+    
+}
+.btn-continuar button{
+    //height: 100px;
+    width: 180px;
+    padding: 4px;
+    margin: 5px 8px;
+    vertical-align: middle;   
+}
+.btn-regresar2 {
+    height: 50px;
+    width: 200px;
+    display: inline-block; 
+    margin-left: 495px; 
+    vertical-align: middle;
+    
+}
+.btn-regresar2 button{
+    //height: 100px;
+    width: 180px;
+    padding: 4px;
+    margin: 5px 8px;
+    vertical-align: middle;   
+}
+
+footer {
+    width: 1366px;
+    height: 130px;
+    background-color: #e6e6fa;
+    position: relative;
+}
+
+footer img {
+    height: 100px;
+    width: 130px;    
+    margin: 15px 10px;
+    float: left;
+}
+
+p {
+    line-height: 40px;
+    margin-left: 120px;
+}
+

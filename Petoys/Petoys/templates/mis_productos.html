@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'css/estilo_general.css' %}">
+        <link rel="stylesheet" href="{% static 'css/estilo_misproductos.css' %}">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <title>Mis productos</title>        
+    </head>
+    
+    <body>
+        
+        
+        <div class="botonesp">
+            <input class="boton3" type="submit" onclick="location.href='pag_admi.html'" value="Inicio" />
+            <input class="boton4" type="submit" onclick="location.href='Caninos_admi.html'"value="Caninos" /> 
+            <input class="boton5" type="submit" onclick="location.href='felinos_admi.html'"value="Felinos" />
+            <input class="boton6" type="submit" onclick="location.href='citas.html'"value="Citas" />
+            <input class="boton7" type="submit" onclick="location.href='Contactenos_admi.html'"value="Contactenos" />
+        </div>
+
+        <div class="contedorp">
+
+            <img class="logop"src="{% static 'imagenes/logo.png' %}" alt=""/>
+
+            <input class="barrap" type="text" name="" value="" />
+            
+            <img class="carrito" src="{% static 'imagenes/carrito.png' %}" alt=""/>            
+            <select name="mi perfil" autofocus="" onchange="location = this.value">
+                <option value="pag_admi.html">Administrador</option>
+                <option value="historial_ventas_admi.html">Historial de Ventas</option>
+                <option value="MisClientes.html">Mis Clientes</option>
+                <option value="mis_productos.html" selected="">Mis Productos</option>
+                <option value="">Cerrar Sesion</option>
+            </select>
+            <div class="cajaimg">
+                <img class="img_perfil" src="{% static 'imagenes/perro_perfil.png' %}" alt=""/>
+            </div>
+
+        </div>
+        
+        <h1 class="titulo">Mis productos</h1>
+        
+        <div>
+            <img class="fotoagregar" src="{% static 'imagenes/agregar.png' %}" alt=""/>
+            <img class="fotoactualizar" src="{% static 'imagenes/Actualizar.png' %}" alt=""/>
+        </div>
+        
+        <div>
+            
+            <button class="botonagregar">Agregar producto</button>
+            <button class="botonactualizacion">Actualizar producto</button>
+            
+        </div>
+        
+        <div>
+            
+            <img class="fotoeliminar" src="{% static 'imagenes/eliminar.png' %}" alt=""/>
+            <img class="fotoagregaroferta" src="{% static 'imagenes/agregar.png' %}" alt=""/>
+            
+        </div>
+        
+        <div>
+            
+            <button class="botoneliminar">Eliminar producto</button>
+            <button class="botonagregaroferta">Agregar oferta</button>
+            
+        </div>
+        
+        <div class="regresarmiscompras">
+            
+            <button class="botonregresar" onclick="location.href='pag_admi.html'">Regresar</button>
+            
+        </div>
+        
+         <footer>
+            <img src="{% static 'imagenes/logo.png' %}" alt=""/>
+            <img class="redes" src="{% static 'imagenes/redes228.png' %}" alt=""/>
+            <p>
+                
+                Contactenos:
+            </p>
+            <p>
+                800 9350
+            </p>
+            <p>
+                Calle 139 No 101B - 04
+            </p>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+    </body>
+    
+</html>

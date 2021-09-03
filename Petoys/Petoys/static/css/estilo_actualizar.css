@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/06/2021, 07:57:14 PM
+    Author     : jseba
+*/
+
+.actualizar{
+    width: 60%;
+    margin-left: 267px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: black;
+    border-style: solid;
+}
+
+.cita{
+    text-align: center;
+}
+
+.ilera1{ 
+    margin-left: 165px;
+    display: inline-block;  
+}
+
+.ilera2{
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.botones{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.guardar{
+    height: 40px;
+    margin-left: 175px;
+    margin-right: 200px; 
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.regresar{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+form select{
+    width: 200px;
+    height: 40px;
+    padding: 3px 15px;
+    margin: 10px 0 20px 0;
+}

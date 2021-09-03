@@ -1,0 +1,164 @@
+* {
+    font-weight: 100;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.botonesp {
+    width: 100%;
+    height: 70px;
+    background-color: #8a2be2; 
+    
+}
+.boton3, .boton4, .boton5, .boton6, .boton7 {
+    height: 38px;
+    width: 118px;    
+    margin-top: 16px;
+    margin-left: 126px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #e6e6fa;
+    border-color: #e6e6fa;
+}
+
+.contedor, .contedorp {
+    width: 100%;
+    height: 120px;
+    background-color: #e6e6fa;
+    position: relative;
+}
+
+.logo, .logop {
+    height: 100px;
+    width: 130px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.barrap {
+        width: 550px;
+        margin-top: 55px;
+        margin-left: 100px;
+        margin-right: 50px;
+        border-radius: 15px;
+        border-color: #8a2be2;
+        border-style: solid;
+        padding-left: 1.2%;
+}
+
+.boton1, .boton2 {
+    height: 38px;
+    width: 10%;    
+    margin-top: 16px;
+    margin-left: 30px;border-radius: 20px;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    line-height: 80px;
+    font-weight:bold;
+    font-size: 32px;
+}
+
+.rec_contrasena {
+    width: 70%;
+    height: 350px;
+    margin: 2% 15%;
+    text-align: right;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+form {
+    width: 70%;
+    height: 515px;
+    margin: 2% 15%;
+    text-align: right;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.formrc label {
+    float: left;
+    width: 350px;
+    height: 30px;        
+    padding: 3px 15px;
+    margin: 45px 0 20px 25px;
+    text-align: center;
+}
+
+.formrc input{    
+    width: 420px;
+    height: 30px;
+    float: left;    
+    padding: 1px 5px;
+    margin: 45px 0 20px 0;
+}
+
+.form1 label {
+    float: left;
+    width: 200px;
+    height: 30px;        
+    padding: 3px 15px;
+    margin: 10px 0 20px 0;
+}
+
+.form1 input, select{    
+    width: 225px;
+    height: 30px;
+    float: left;    
+    padding: 1px 5px;
+    margin: 10px 0 20px 0;
+}
+.boton8 {
+    height: 38px;
+    width: 10%;
+    float: left;
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 2.5%;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.boton9 {
+    height: 38px;
+    width: 10%;
+    display: inline-block;
+    margin-left: 50%;
+    margin-bottom: 2.5%;
+    border-radius: 20px;
+    border-style: solid;
+}
+footer {
+    width: 100%;
+    height: 130px;
+    background-color: #e6e6fa;
+    //position: fixed;
+    left: 0px;
+    bottom: 0px;
+    
+}
+
+footer img {
+    height: 100px;
+    width: 130px;    
+    margin: 15px 10px;
+    float: left;    
+}
+.redes {
+    float: right;
+    margin-right: 5%;
+    
+}
+
+p {
+    line-height: 40px;
+    margin-left: 120px;
+}

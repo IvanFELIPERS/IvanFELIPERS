@@ -1,0 +1,98 @@
+
+
+
+.div1{
+    width: 320px;
+    height: 350px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+
+
+.div2{
+    width: 320px;
+    height: 350px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+.div3{
+    width: 320px;
+    height: 350px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+.div4{
+    width: 320px;
+    height: 350px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+.div5{
+    width: 320px;
+    height: 350px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: none;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+.div6{
+
+    width: 320px;
+    height: 300px;
+    padding: 16px; 
+    margin: 50px 62px;
+    display: inline-block;
+    float: left;
+    //text-align: center;
+    border: 3px solid black;
+    border-style: double;
+}
+
+.border{
+    
+    
+}
+.bannerr{
+   height: 300px;
+    width: 1000px;    
+    display:block;
+    margin:auto;
+    float: none; 
+}
+.footerbaner{
+    width: 100%;
+    height: auto;
+    background-color: #e6e6fa;
+    //position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 15px;
+    border-style: double;
+    display:block;
+margin:auto;
+    
+}
+
